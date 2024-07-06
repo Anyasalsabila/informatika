@@ -24,6 +24,7 @@ class HomeController extends Controller
         $galleries = Gallery::limit(6)->get();
         $alumniesTotal = Alumni::count();
         $receptionsTotal = Reception::sum('passed');
-        return view('beranda', compact('lecturers', 'achievments', 'news', 'announcements', 'galleries', 'alumniesTotal', 'receptionsTotal'));
+        $lecturersTotal = Lecturer::count();
+        return view('beranda', compact('lecturers', 'achievments', 'news', 'announcements', 'galleries', 'alumniesTotal', 'receptionsTotal', 'lecturersTotal'));
     }
 }

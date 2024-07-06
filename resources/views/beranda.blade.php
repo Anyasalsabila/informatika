@@ -11,8 +11,8 @@
                             <button type="button" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-2xl">Jelajahi</button>
                             <div class="flex items-center gap-x-8">
                                 <div class="">
-                                    <h1 class="text-3xl md:text-4xl font-bold text-gray-600">{{ $alumniesTotal }}</h1>
-                                    <h3 class="text-sm text-gray-800">Total Alumni</h3>
+                                    <h1 class="text-3xl md:text-4xl font-bold text-gray-600">{{ $lecturersTotal }}</h1>
+                                    <h3 class="text-sm text-gray-800">Total Dosen</h3>
                                 </div>
                                 <div class="">
                                     <h1 class="text-3xl md:text-4xl font-bold text-gray-600">{{ $receptionsTotal }}</h1>
